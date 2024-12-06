@@ -3,9 +3,9 @@ FROM alpine:3.20
 
 WORKDIR /tmp
 
-ADD --checksum=sha256:e29da5d35c12418337b83e19d024171d2f755989e62d0bc483c9ec86d0483258\
+ADD --checksum=sha256:93f88d5f49ca5c3ea99ee865c9589138f9fb435901ebe1fc74434f0ceba1f1ab\
     "https://github.com/dragonwell-project/dragonwell8/releases/download/\
-dragonwell-standard-8.20.21_jdk8u422-ga/Alibaba_Dragonwell_Standard_8.20.21_x64_linux.tar.gz"\
+dragonwell-standard-8.23.22_jdk8u432-ga/Alibaba_Dragonwell_Standard_8.23.22_x64_linux.tar.gz"\
     ./openjdk.tar.gz
 
 RUN mkdir openjdk;\

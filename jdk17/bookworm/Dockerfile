@@ -3,9 +3,9 @@ FROM alpine:3.20
 
 WORKDIR /tmp
 
-ADD --checksum=sha256:2ea1577803314807beeb0a4b95540850195d99a62c7fd07910f844320e1c2c6f\
+ADD --checksum=sha256:281d1c204fc0bfa6d7669921a8261cc7efc7513818d3312e9306786814457966\
     "https://github.com/dragonwell-project/dragonwell17/releases/download/\
-dragonwell-standard-17.0.11.0.12%2B9_jdk-17.0.11-ga/Alibaba_Dragonwell_Standard_17.0.11.0.12.9_x64_linux.tar.gz"\
+dragonwell-standard-17.0.13.0.14%2B9_jdk-17.0.13-ga/Alibaba_Dragonwell_Standard_17.0.13.0.14.9_x64_linux.tar.gz"\
     ./openjdk.tar.gz
 
 RUN mkdir openjdk;\

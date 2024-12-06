@@ -2,12 +2,12 @@
 
 Simple dockerfiles for creating [Alibaba Dragonwell JDK](https://dragonwell-jdk.io/) (Standard Edition) docker images.
 
-| Version |  Arch  | Base Image                   |
-|---------|--------|------------------------------|
-| 8       | x86_64 | debian bookworm              |
-| 11      | x86_64 | debian bookworm, alpine 3.20 |
-| 17      | x86_64 | debian bookworm, alpine 3.20 |
-| 21      | x86_64 | debian bookworm, alpine 3.20 |
+| Version |  Arch  | Base Image                   | Version               |
+|---------|--------|------------------------------|-----------------------|
+| 8       | x86_64 | debian bookworm              | 8.23.22_jdk8u432      |
+| 11      | x86_64 | debian bookworm, alpine 3.20 | 11.0.25.21.9          |
+| 17      | x86_64 | debian bookworm, alpine 3.20 | 17.0.13.0.14+9        |
+| 21      | x86_64 | debian bookworm, alpine 3.20 | 21.0.5.0.5+9          |
 
 ## usage
 
